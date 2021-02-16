@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: "font-family: 'Oswald', sans-serif";
+    background-color: rgba(161, 159, 159, 0.603);
+}
+ 
+#header {
+    background-color: rgb(50, 119, 122);
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+}
+#logo {
+    padding: 5px;
+    font-size: 36px;
+}
+#menu {
+    padding: 15px;
+}
+#area-principal {
+    width: 920px;
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px
+}
+#area-postagens {
+    width: 600px;
+    float: left;
+}
+#area-lateral {
+    width: 300px;
+    float: right;
+    padding: 45px 0 0 0 ;
+    margin-bottom: 5px;
+    word-spacing: 2px;
+}
+.posts {
+    padding: 10px;
+    margin-bottom: 5px;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+#area-rodape {
+    clear: both;
+    background-color: white;
+    text-align: center;
+    padding: 15px
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+}
+a:link, a:visited {
+    color: #fff;
+}
+a:hover {
+    color: rgba(153, 208, 233, 0.932);
+}
+h2 {
+    color: rgb(50, 119, 122);
+    padding: 0 0 15px 0
+}
+h3 {
+    color: rgb(50, 119, 122);
+    padding: 0 0 15px 0
+}
+p {
+    padding: 15px 0 25px 0;
+    text-align: left
+    
+}
